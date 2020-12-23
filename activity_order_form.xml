@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderForm"
+    android:background="#34c7b1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="КГБ"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="ФИО"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Адрес"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="Номер телефона"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Площадь"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:hint="Дата"
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/RmClean"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Уборка помещений"
+            android:textSize="10dp"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/GenRmClean"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Генеральная уборка помещений"
+            android:textSize="10dp"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/TrClean"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="Уборка территории"
+            android:textSize="10dp"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/FixClean"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="Уборка после ремонта"
+            android:textSize="10dp"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/BrnClean"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Уборка после пожара"
+            android:textSize="10dp"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/SpcClean"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="Спецклининг"
+            android:textSize="10dp"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/OtherKindClean"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="Выполнение отдельных видов работ"
+            android:textSize="10dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/ApxSum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Примерная сумма заказа"
+            android:textSize="10dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Заказать чистку"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#b02326"/>
+
+        <Button
+            android:id="@+id/buttonInf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Информационное бюро"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#b02326"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
